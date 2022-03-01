@@ -1,0 +1,123 @@
+/* Con el * quita las propiedades por defecto  */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* el box sizing es para que los elementos no se salgan del contenedor */
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #fffcdd;
+    padding: 25px;
+    
+}
+
+header{
+    background-color: #EAF2E3;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: -3px 10px 18px -6px rgba(0,0,0,0.6);
+    margin: 15px;
+    text-align: left;
+}
+
+.divgral{
+    background-color: white;
+    box-shadow: -3px 10px 18px -6px rgba(0,0,0,0.6);
+    border-radius: 5px;
+
+}
+.titulo{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.v1{
+    padding-left: 30px;
+
+}
+
+
+.v2{
+    padding-left: 30px;
+    
+}
+.v3{
+    padding-left: 30px;
+    
+}
+.v4{
+    padding-left: 30px;
+    
+}
+.v5{
+    padding-left: 30px;
+    
+}
+.v6{
+    padding-left: 30px;
+}
+.v7{
+    padding-left: 30px;
+    
+}
+.v8{
+    padding-left: 30px;
+    
+}
+.v9{
+    padding-left: 90px;
+    
+}
+.v10{
+    padding-left: 30px;
+    display: inline-flex;
+    
+    
+    
+}
+.v11{
+    padding-left: 30px;
+    display: inline-flex;
+    
+}
+.v12{
+    padding-left: 30px;
+    display: inline-flex;
+}
+.v13{
+    padding-left: 30px;
+    display: inline-flex;
+    padding-bottom: 20px;
+    
+}
+
+.footer{
+    background-color: #EAF2E3;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: -3px 10px 18px -6px rgba(0,0,0,0.6);
+    text-align: center;
+
+}
+
+@media (max-width: 300px) {
+    .divgral {
+        padding-left: 10px;
+    }
+    .v1,.v2,.v3,.v4, .v5, .v6, .v7, .v8, .v9, .v10, .v11, .v12, .v13{
+        padding-left: 0px;
+    }
+    
+}
+
+@media (max-width: 360px) {
+    body{
+        font-size: 17px;
+    }
+}
+   
