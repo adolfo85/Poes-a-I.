@@ -104,6 +104,9 @@ header{
     text-align: center;
 
 }
+#qrcode{
+    text-decoration: none;
+    align-text: center;
 
 @media (max-width: 300px) {
     .divgral {
